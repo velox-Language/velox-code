@@ -1,0 +1,14 @@
+// Hello world на Velox
+print "Hello, Velox!"
+
+x = 42
+y = 100
+sum = x + y
+print "Sum = " sum
+
+// указатели и ссылки
+ptr = &x
+*ptr = 99
+print "New x = " x
+
+exit
